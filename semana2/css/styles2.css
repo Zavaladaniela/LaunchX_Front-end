@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.vertical{
+    padding: 30px;
+    background-color: #C4E9CA;
+}
+.horizontal{
+    padding: 0px 0px;
+    background-image: url(https://cdn.pixabay.com/photo/2012/04/15/19/14/honeycomb-34984_960_720.png); 
+
+}
+.cuadros{
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.descarga{
+    text-align: right;
+}
+.titulo{
+    margin: 0;
+    background-color: white ;
+    text-align: center;
+}
+.tabla{
+    
+}
+.tabla2{
+    margin: 0;
+    padding: 5px 0px;
+}
+table.separado {
+    border-collapse: separate;
+    border-spacing: 30px;
+    border: 3;
+
+}
+
+
+table.colapsado {border-collapse: collapse;}
+
+#promo1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #B1B7EC;
+    border: 2px solid #B1B7EC;
+    border-radius: 1em;
+    border-top-right-radius: 50% 20%;
+}
+#promo2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #C6E4BE;
+    border: 2px solid #C6E4BE;
+    border-radius: 1em;
+    border-top-right-radius: 10% 50%;
+}
+#promo3{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E7BF9F;
+    border: 2px solid #E7BF9F;
+    border-radius: 1em;
+    border-top-right-radius: 60% 50%;
+    
+}
+#bienvenido{
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    
+    background-color: white ;
+    
+}

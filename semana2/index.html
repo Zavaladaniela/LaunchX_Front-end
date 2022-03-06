@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    
+    <title>Pasteleria QUESOS</title>
+</head>
+<body class="cuerpo">
+    <header class="cabecera">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand fst-italic" href="#">Quesos</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Catálogo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Promociones</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>   
+    </header>
+    <main>
+        <section class="container-fluid">
+                <div class="row" id="presentacion">
+                    <div class="col-7" id="logo">
+                        <figure>
+                            <img src="./images/logo5.png" alt="" class="" width="100%">
+                        </figure>
+                        <div>
+                            <h5 class="card-title text-center">CONTACTO</h5>
+                            <div class="row">
+                                <div class="col-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                    </svg>
+                                </div>
+                                <div class="col-9">
+                                    <p class="text-justify"> Antonio Ancona 133,Constitución de 1917,C.P.09260,Iztapalapa, CDMX. <br>
+                                        Lunes a Sabado de 09:00 a 18:00</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                    </svg>
+                                </div>
+                                <div class="col-9">
+                                    <p class="text-justify"> Ventas y cotizaciones <br> Lunes a Sabados de 10:00 a 19:00 <br>
+                                        5567879823</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-5 foto1">
+                        <figure class="container-fluid">
+                            <img src="./images/pastel3.jpg" alt="" width="100%" height="100%">
+                        </figure>
+                    </div>
+                </div>
+            <hr>
+
+            <div class="container" id="promociones">
+                <div>
+                    <h5 class="card-title text-center">PROMOCIONES DE LA SEMANA</h5><br>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card rounded" id="promo1">
+                            <figure class="pastel">
+                                <img src="./images/pastel.jpg" class="card-img-top" alt="">
+                            </figure>
+                            <div class="card-body">
+                              <h5 class="card-title fw-normal"> Pie de queso</h5>
+                              <p class="card-text fst-italic">Para 10 personas </p>
+                              <p class="card-text fw-bold">Antes: $390<br>Ahora: $270</p>
+                              <a href="#" class="btn btn-outline-primary">Hacer pedido</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="card rounded" id="promo2">
+                            <figure class="pastel2">
+                                <img src="./images/pastel2.jfif" class="card-img-top" alt="">
+                            </figure>
+                            <div class="card-body">
+                              <h5 class="card-title fw-normal"> Pastel fondad</h5>
+                              <p class="card-text fst-italic"> De diseño sencillo, para al rededor de 10 personas  </p>
+                              <p class="card-text fw-bold"> Antes: $780 <br>Ahora: $500</p>
+                              <a href="#" class="btn btn-outline-primary">Hacer pedido</a>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div><br><hr><hr>
+
+            <div class="container" id="cotizaciones">
+                <div>
+                    <h5 class="text-center">COTIZACIONES</h5>
+                </div>
+                <div class="cotainer-fluid formato">
+                            <div class="row">
+                                <form action="">
+                                    <div class="container-fluid">
+                                        <p>Proporciona tus datos personales para darte una mejor atencion</p>
+                                        <div class="row">
+                                            <div class="col">
+                                                <label for="nombre">
+                                                    <span> Ingresa tu nombre(s): </span>
+                                                    <input type="text" placeholder="Ej. Daniela Susana">
+                                                </label>
+                                            </div>
+                                            <div class="col">
+                                                <label for="apellidos">
+                                                    <span>Ingresa tus apellidos: </span>
+                                                    <input type="text" placeholder="Ej. Zavala Valdez">
+                                                </label>
+                                            </div>
+                                        </div><br>
+                                        <div class="row">
+                                            <div class="col">
+                                                <label for="Direccion">
+                                                    <span>Ingresa tu direccion: </span>
+                                                    <input type="address" placeholder="Ej. Lopez Portillo no.27 col.Vicente Guerrero, Del.Tlalpan,CP.0976,CDMX">
+                                                </label>
+                                            </div>
+                                            <div class="col">
+                                                <label for="email">
+                                                    <span>Ingresa tu ema-il:</span>
+                                                    <input type="email" placeholder="Ej.daniela.zavala107@gmail.com">
+                                                </label>
+                                            </div>
+                                        </div><br>
+                                        <h5 class="text-center">FECHA Y HORA DE ENTREGA</h5><br>
+                                        <label for="fechaEntrega">
+                                            <span>Ingrese la fecha de entrega:</span>
+                                            <input type="date">
+                                        </label><br><br>
+                        
+                                        <label for="horaEntrega">
+                                            <span>Ingresa la hora de entrega:</span>
+                                            <input type="time" name="" id="">
+                                        </label>
+                                    </div><br><br>
+                                    <div class="container rounded armaPastel">
+                                        <div class="row "><br>
+                                            <h5>ARMA TU PASTEL</h5>
+                                            <span class="card-title text-center fw-normal">Elige las caracteristicas de tu pastel</span><br><br>
+                                            <div class="col"> 
+                                                <label for="tamañoPastel"> Tamaño</label>
+                                                <input type="number" id="tamañoPastel" name="tamañoPastel" placeholder="Ingresa el numero de personas"> <br> <br>
+                                            </div>
+                                            <div class="col">
+                                                
+                                                <label for="relleno">Relleno: </label>
+                                                    <input list="relleno">
+                                                    <datalist id="relleno">
+                                                        <option value="Crema batida"></option>
+                                                        <option value="Crema pastelera"></option>
+                                                        <option value="Flan"></option>
+                                                        <option value=" Queso"></option>
+                                                    </datalist><br><br> 
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <label for="cubierta">Cubierta </label>
+                                                <input list="cubierta">
+                                                <datalist id="cubierta">
+                                                    <option value="Merengue"></option>
+                                                    <option value="Chantilly"></option>
+                                                    <option value="Fondand"></option>
+                                                    <option value="Crema pura"></option>
+                                                    <option value="Betún"></option>
+                                                </datalist><br><br>
+                                            </div>
+                                            <div class="col">
+                                                <label for="fruta">Fruta: </label>
+                                                <input list="fruta">
+                                                <datalist id="fruta">
+                                                    <option value="Fresas"></option>
+                                                    <option value="Durazno"></option>
+                                                    <option value="Fresas con nuez"></option>
+                                                    <option value="Durazno con nuez"></option> 
+                                                </datalist><br><br>
+
+                                                <label for="color">Color: </label>
+                                                <input type="color" value="#FFFFF" id="color" name="color"> <br>
+                                            </div>
+                                        </div><br>
+            
+                                        <div class="row">
+                                            <div class="col">
+                                                <label>Sabor</label> <br>
+                                                <div class="sabor">
+                                                    <input type="checkbox" id="sabor1" name="topping1" value="Cebolla">
+                                                    <label for="topping1">Pan de Vainilla</label><br>
+                                                    <input type="checkbox" id="sabor2" name="topping2" value="Cilantro">
+                                                    <label for="topping2">Pan de chocolate</label><br>
+                                                    <input type="checkbox" id="sabor3" name="topping3" value="Salsa">
+                                                    <label for="topping3">Pan de fresa</label><br>
+                                                    <input type="checkbox" id="sabor4" name="topping3" value="Salsa">
+                                                    <label for="topping3">RedVelbet</label><br>
+                                                    <input type="checkbox" id="sabor5" name="topping3" value="Salsa">
+                                                    <label for="topping3">Napolitano</label><br><br>
+                                                </div>
+                                                <!-- label for="saborPan"> Sabor</label>
+                                                <input list="saborPan">
+                                                <datalist id="saborPan">
+                                                    <option value="Pan de vainilla"></option>
+                                                    <option value="Pan de chocolate"></option>
+                                                    <option value="Pan de fresa"></option>
+                                                    <option value="Red Velbet"></option>
+                                                </datalist><br><br> -->
+                                            </div>
+                                            <div class="col">
+                                                <label for="">Adornos</label>
+                                                <div class="relleno">
+                                                    <input type="checkbox" id="relleno1" name="topping1" value="Cebolla">
+                                                    <label for="topping1">Crema batida</label><br>
+                                                    <input type="checkbox" id="relleno2" name="topping2" value="Cilantro">
+                                                    <label for="topping2">Crema pastelera</label><br>
+                                                    <input type="checkbox" id="relleno3" name="topping3" value="Salsa">
+                                                    <label for="topping3">Flan</label><br>
+                                                    <input type="checkbox" id="relleno4" name="topping3" value="Salsa">
+                                                    <label for="topping3">Queso</label><br>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+            
+                                        <div class="container-fluid">
+                                            <div class="text-justify">
+                                                    <label for="comentarios">
+                                                        <span>Haznos saber algun otro detalle importante para tu pastel. Si cuentas
+                                                        con algun diseño especifico, adjuntanos un archivo con la imagen correspondiente</span><br><br>
+                                                        <input class="comentarioTexto" type="text">
+                                                    </label><br><br>
+                                            </div>  
+                                            <div class="archivoSubir">
+                                                <label for="archivo">
+                                                    <span class="text-justify">Adjunta tu archivo</span><br>
+                                                    <input type="file" width="100%">
+                                                </label>
+                                            </div>  
+                                        </div> <br>
+                                    </div>
+                                </form>
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-outline-primary justify-content-center">Enviar </button>
+                                </div>  
+                            </div>      
+                </div><br><hr>
+            </div><hr><hr>
+
+            <div class="container contacto">
+                <h3 class="text-center"> INICIA TU PEDIDO</h3>
+                <p> En el siguiente formulario proporcione los datos necesarios para la entrega de su pedido
+                </p><br>
+                <div class="rounded preregistro">
+                    <p class="fst-italic">Si hiciste el proceso de cotizacion, ingresa tu numero de registro para hacer mas rapido el proceso</p>
+                    <label for="preregistro">
+                        <span> Ingresa tu numero de registro: </span>
+                        <input type="text-center" placeholder="A-5467">
+                    </label><br>
+                    <div class="container iniciarRegistro">
+                        <button type="button" class="btn btn-danger ">Iniciar</button>
+                    </div>
+                </div><br>
+                <form action="">
+                    <label for="nombre">
+                        <span> Ingresa tu nombre(s): </span>
+                        <input type="text" placeholder="Ej. Daniela Susana">
+                    </label><br><br>
+
+                    <label for="apellidos">
+                        <span>Ingresa tus apellidos: </span>
+                        <input type="text" placeholder="Ej. Zavala Valdez">
+                    </label><br><br>
+
+                    <label for="telefono">
+                        <span>Ingresa tu numero celular o de contacto:</span>
+                        <input type="tel" placeholder="Ej.5547672787">
+                    </label><br><br>
+
+                    <label for="Direccion">
+                        <span>Ingresa tu direccion: </span>
+                        <input type="address" placeholder="Ej. Lopez Portillo no.27 col.Vicente Guerrero, Del.Tlalpan,CP.0976,CDMX">
+                    </label><br><br>
+
+                    <label for="email">
+                        <span>Ingresa tu ema-il:</span>
+                        <input type="email" placeholder="Ej.daniela.zavala107@gmail.com">
+                    </label><br><br>
+
+                    <h3 class="text-center">Fecha y hora de Entrega</h3><br>
+                    <label for="fechaEntrega">
+                        <span>Ingrese la fecha de entrega:</span>
+                        <input type="date">
+                    </label><br><br>
+
+                    <label for="horaEntrega">
+                        <span>Ingresa la hora de entrega:</span>
+                        <input type="time" name="" id="">
+                    </label>
+
+                </form><br>
+
+                <div class="d-grid gap-2">
+                    <button class="btn btn-outline-success" type="button">Enviar</button><br><br>
+                </div>
+            </div>
+            <hr>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container"><br><br><br>
+            <div class="row">
+                <div class="col-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                    </svg>
+                </div>
+                <div class="col-9">
+                    <p class="text-justify"> Antonio Ancona 133,Constitución de 1917,C.P.09260,Iztapalapa, CDMX. <br>
+                        Lunes a Sabado de 09:00 a 18:00</p>
+                </div>
+            </div>
+            <div class="row numero">
+                <div class="col-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                    </svg>
+                </div>
+                <div class="col-9">
+                    <p class="text-justify"> Ventas y cotizaciones <br> Lunes a Sabados de 10:00 a 19:00 <br>
+                5567879823</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="./js/bootstrap.js"></script>
+
+</html>

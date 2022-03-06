@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    padding: 60px 10px;
+    text-align: center;
+    margin: 0px;
+    height: 50%;
+}
+.contacto{
+    padding: 30px 40px;
+    text-align: justify;
+    background-color: #F7DEC7;
+    text-align: center;
+    
+}
+.foto1{
+    display: block;
+    margin: 0px auto;
+    padding: 150px 5px ;
+    position: relative;
+    text-align: center;
+}
+.pastel,.pastel2{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    height: 20%;
+}
+.sabor,.relleno{
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    padding: 5px 15px;
+    background-color: #C6E4BE;
+    text-align: left;
+    width: 80%;
+}
+.preregistro{
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    padding: 5px 15px;
+    background-color: #E7BF9F;
+    text-align: justify;
+}
+.iniciarRegistro{
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    text-align: right;
+}
+.comentarioTexto{
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    height: 10rem;
+    width: 20rem;
+}
+.archivoSubir{
+    display: block;
+    margin: 0px auto;
+    position: relative;
+}
+.formato{
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+.container{
+    padding: 10px 30px;  
+} 
+nav{
+    background-color: #C0D7BA; ;
+}
+main{
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    padding: 5px ;
+    /*de arriba hacia abajo y de izquierda a derecha*/
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section{
+    background-image: url(https://cdn.pixabay.com/photo/2012/04/15/19/14/honeycomb-34984_960_720.png); 
+}
+
+img{
+    display: block;
+    margin: 0px auto;
+}
+input{
+    border: 0;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    padding: 5px;
+    background-color: #819DA2;
+}
+
+#promociones{
+    padding: 30px;
+    background-color: #F0D4BD;
+    text-align: center;
+}
+#presentacion{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #C0D7BA;
+    border: 5px solid #C0D7BA;
+    border-radius: 1em;
+    border-top-right-radius: 5% 30%;
+}
+
+#catalogo{
+    background-color: #19D6A7;
+    word-wrap: normal;      
+
+}
+#cotizaciones{
+    padding: 35px 10px;
+    background-color: #C6E4BE ; /*#8FB685*/
+    display: block;
+    position: relative;
+}
+#pedidos{
+    background-color: #7B4CD3;
+}
+#recomendaciones{
+    background-color: #4CD357;
+}
+#promo1,#promo2{
+    padding: 15px,15px;
+    background-color: #E7BF9F;
+    border: 0;
+}
+
+
+
+
